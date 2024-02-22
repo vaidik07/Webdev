@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../../../vagrant-vms/ubantu18/dexopsdir"
+		},
+		{
+			"path": "../jaypee/DSA"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "dexopsdir"
+	}
+}

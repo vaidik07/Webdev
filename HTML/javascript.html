@@ -1,0 +1,32 @@
+<html>
+    <body>
+        <h1>My first web page</h1>
+        <p>My first paragraph</p>
+        <p id="demo"></p>
+        <p id="conversion"></p>
+        <p id="fruits"></p>
+        <p
+
+        <script>
+            var pi=3.14;
+            var person="John Doe";
+            var answer="yes I am!";
+            document.getElementById("demo").innerHTML=pi+"<br>"+person+"<br>"+answer;
+            document.write("degree to celsius");
+            function tocelsius(f){
+                return (5/9)*(f-32);
+            }
+            document.getElementById("conversion").innerHTML=tocelsius(77);
+            
+            let str="apple,banana,kiwi";
+            document.getElementById("fruits").innerHTML=str.slice(7,13)+"<br>"+str.length+"<br>"+str.slice(-12,-6)+"<br>"+str.substr(-4)+"<br>"+str.toUpperCase()+"<br>"+str.trim();
+            
+            function calculatesum(n){
+                return n(n+1)/2;
+            }
+            document.getElementById("sum").innerHTML=calculatesum(10);
+            
+            
+        </script>
+    </body>
+</html>
